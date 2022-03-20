@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 500px;
+    height: 600px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid rgba(238, 238, 238, 0.904);
+    box-shadow: 10px 10px 10px 2px rgb(192, 189, 189);
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(241, 202, 155);
+}
+
+.time {
+    width: 13%;
+}
+
+.time-display {
+    font-size: 15px;
+    transform: translateY(-10px);
+}
+
+.border {
+    width: 87%;
+    position: relative;
+}
+
+.interval {
+    height: 120px;
+}
+
+.border-width {
+    width: 100%;
+    border-top: 1px solid black;
+}
